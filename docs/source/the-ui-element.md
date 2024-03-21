@@ -3,8 +3,8 @@ The &lt;ui&gt; element
 
 The `<ui>` element is how you specify a user interface for your instrument. Each **dspreset** should have at most one `<ui>` element. There are several important attributes:
 
-- **`coverArt`** (optional): A relative or absolutely path to a cover art image to use. After the first time this library is opened, this will get displayed on the "My Libraries" tab.
-- **`bgImage`** (optional): A relative or absolutely path to a background image to use. 
+- **`coverArt`** (optional): A relative or absolute path to a cover art image to use. After the first time this library is opened, this will get displayed on the "My Libraries" tab.
+- **`bgImage`** (optional): A relative or absolute path to a background image to use. 
 - **`bgColor`** (required): An eight digit hex value indicating the background color to be used for the background of the UI. This color will be drawn underneath any background image specified by `bgimage`.
 - **`width`** (required): The width of your user interface. Recommended value: 812.
 - **`height`** (required): The height of your user interface. Recommended value: 375.
